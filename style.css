@@ -1,10 +1,71 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+  /* css geral */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  text-decoration: none !important;
+
 }
+
+/* class para todos os titulos */
+.titulos{
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.25em;
+  line-height: 3rem;  
+  text-transform: uppercase;
+  color: #0E2874;
+}
+/* class para todos os paragrafos */
+.paragrafos{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+line-height: 1.5rem;
+color: #212121;
+}
+/* botão de solicitar orçamento */
+ .btn-orçamento{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding-top:0.5rem;
+padding-bottom: 0.5rem;
+background-color: #0E2874;
+border-radius: 1px;
+width: 15.6rem;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 1em;
+text-transform: uppercase;
+color: #FFFFFA;
+ }
+ /* link orçamento */
+ .link-orcamento{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #0E2874;
+flex: none;
+order: 0;
+flex-grow: 0;
+ }
+
+ /* espacamento-titulos */
+ .espacamento-titulos{
+  padding-bottom:9rem ;
+ }
+
+/* nav -header */
 .header{
   height: 100px;
   width: 100vw;
@@ -18,39 +79,18 @@ color: #57504E;
 #link-nav{
   color: #57504E;
 }
-/* seção 01 */
+
+
+
+
+/* seção sobre a empresa */
 .secao-1{
 background: #EAEAEA;
-}
-.div1-subsecao-secao01{
   padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.texto-secao01{
-
-}
-
-/* class para todos os titulos */
-.titulos{
- 
-  font-family: 'Noto Serif';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 48px;  
-  text-transform: uppercase;
-  color: #0E2874;
-}
-/* class para todos os paragrafos */
-.paragrafos{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #212121;
-}
-
+/* seção nossos serviços  */
 /* subtitulos nossos serviços */
 .sub-titulo-servicos{
 font-family: 'Inter';
@@ -61,6 +101,12 @@ line-height: 19px;
 text-transform: uppercase;
 color: #212121;
 }
+.servicos{
+ margin-top: 7.5rem ;
+ margin-bottom: 7.5rem;
+}
+
+/* secão sujestão de serviços  */
 
 /*subtitulo sugestão de serviços */
 
@@ -73,9 +119,17 @@ color: #212121;
   text-transform: uppercase;
   color: #0E2874;
 }
-/* 
-quadradado qualidades   */
-
+.servicos-sugestao{
+  margin-bottom: 7.5rem;
+ }
+/* seção qualiddes  */
+/* quadradado qualidades  */
+.qualidades{
+  padding-top: 7.5rem;
+  padding-bottom:7.5rem;
+  margin-bottom: 7.5rem;;
+  background-color:#EAEAEA; ;
+}
 .quadrado{
  box-sizing: border-box;
 background: #FFFFFA;
@@ -93,44 +147,22 @@ border-radius: 1px;
   text-transform: uppercase;
   color: #212121;
 }
-/*  */
 
 .posicao-icon-qualidades{
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.div-trabalho{
-  background-color: rgb(71, 141, 217);
-  border-radius: 10px;
-  padding: 10px;
+
+/* seção de serviços concluídos */
+.servicos-concluidos{
+  margin-bottom: 7.5rem;
 }
 
-
-.imagem-whatsap {
-  width: 80px;
-  z-index: 10 !important;
-}
-.contato-fixed {
-  width: 90px;
-  height: 90px;
-  position: fixed;
-  right: 4px;
-  bottom: 23%;
-  z-index: 10 !important;
-
-}
-.tel-fixed {
-  width: 90px;
-  height: 90px;
-  position: fixed;
-  right: 4px;
-  bottom: 10%;
-  z-index: 10 !important;
-
-}
+/* footer -contatos */
 .contatos {
-    background-color: rgb(71, 141, 217);
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 /* titulo footer */
@@ -169,3 +201,27 @@ text-transform: uppercase;
 color: #FFFFFA;
 
 }
+
+/* icone fixado do whatsap */
+.imagem-whatsap {
+  width: 80px;
+  z-index: 10 !important;
+}
+.contato-fixed {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 4px;
+  bottom: 23%;
+  z-index: 10 !important;
+
+}
+/* .tel-fixed {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 4px;
+  bottom: 10%;
+  z-index: 10 !important;
+
+} */
