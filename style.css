@@ -121,6 +121,10 @@ color: #212121;
 .servicos-sugestao{
   margin-bottom: 7.5rem;
  }
+
+ .img-sujestoes{
+  height: 20rem !important;
+ }
 /* seção qualiddes  */
 /* quadradado qualidades  */
 .qualidades{
@@ -229,3 +233,15 @@ color: #FFFFFA;
   z-index: 10 !important;
 
 } */
+
+
+/* Responsivo */
+@media (max-width: 800px)
+{
+  .secao01-img-responsiva{
+    display: none;
+  }
+.txt-responsivo-secao1{
+width: 100% !important;
+}
+}
