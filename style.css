@@ -9,7 +9,9 @@
   text-decoration: none !important;
 
 }
-
+ .mobille{
+  display: none;
+ }
 /* class para todos os titulos */
 .titulos{
   font-style: normal;
@@ -236,21 +238,12 @@ color: #FFFFFA;
 
 
 /* Responsivo */
-@media (max-width: 800px)
+@media (max-width: 992px)
 {
-  .secao01-img-responsiva{
-    display: none;
-    
+  .desktop{
+    display: none !important;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-    
-    text-decoration: none !important;
-  
-  }
-.txt-responsivo-secao1{
-width: 100% !important;
+.mobille{
+  display: block !important;
 }
 }
