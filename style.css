@@ -240,10 +240,22 @@ color: #FFFFFA;
 /* Responsivo */
 @media (max-width: 992px)
 {
-  .desktop{
-    display: none !important;
+
+  #img-nav{
+    width: 1.5rem !important;
   }
-.mobille{
-  display: block !important;
+  #button-nav{
+display: flex;  
+justify-content: center;
+align-items: center;
 }
+    .desktop{
+      display: none !important;
+    }
+  .mobille{
+    display: block !important;
+  }
 }
+
+
+
